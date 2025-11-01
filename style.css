@@ -1,11 +1,17 @@
 body {
   margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
   font-family: 'Poppins', sans-serif;
   background: url('back.jpg') no-repeat center center fixed;
   background-size: cover;
   color: #fff;
   text-align: center;
-  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .container {
   color: #000000;
@@ -59,7 +65,7 @@ h1 {
 }
 
 .saluran {
-  width: 25px;
+  width: 25px;          /* ukuran kecil biar pas */
   height: 25px;
   border-radius: 50%;
   margin-right: 9px;
